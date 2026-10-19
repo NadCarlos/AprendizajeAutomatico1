@@ -1,0 +1,21 @@
+[project]
+name = "aprendizajeautomatico1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nadalig Carlos", email = "c.nadalig@itecriocuarto.org.ar" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+]
+
+[project.scripts]
+aprendizajeautomatico1 = "aprendizajeautomatico1:main"
+
+[build-system]
+requires = ["uv_build>=0.12.4,<0.13.0"]
+build-backend = "uv_build"
